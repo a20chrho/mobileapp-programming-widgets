@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Widgets</string>
+    <string name="Button1">Button 1</string>
+    <string name="Greeting">Hellow Widget World!</string>
 </resources>
