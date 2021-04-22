@@ -41,6 +41,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageViewStar"
+        android:layout_width="409dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="32dp"
+        android:rotationX="32"
+        android:contentDescription="@string/imageViewStar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button1"
+        app:srcCompat="@android:drawable/star_big_on" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,4 +3,5 @@
     <string name="Button1">Button 1</string>
     <string name="Greeting">Hellow Widget World!</string>
     <string name="EditText1Hint">Click Here to Enter Text</string>
+    <string name="imageViewStar">Star image</string>
 </resources>
