@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // For the button functionality --> from https://www.studytonight.com/android/get-edittext-set-textview
     // These are the global variables
     EditText editText;
     TextView result;
@@ -26,16 +25,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        editText = (EditText) findViewById(R.id.EditText);
-//        result = (TextView) findViewById(R.id.tvResult);
-//        buttonSubmit = (Button) findViewById(R.id.buttonSubmit);
-//        buttonReset = (Button) findViewById(R.id.buttonReset);
+        editText = (EditText) findViewById(R.id.EditText);
+        result = (TextView) findViewById(R.id.tvResult);
+        buttonSubmit = (Button) findViewById(R.id.buttonSubmit);
+        buttonReset = (Button) findViewById(R.id.buttonReset);
 
         buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d("==>","SubmitButton clicked");
-                // get text from EditText name view
+                // get text from EditText user input
                 String userinput = editText.getText().toString();
                 result.setText("Text:\t" + userinput);
 
