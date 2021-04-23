@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Widgets</string>
-    <string name="Button1">Button 1</string>
-    <string name="Greeting">Hellow Widget World!</string>
+    <string name="Button1">SEND TEXT</string>
+    <string name="Greeting">Hello Widget World!</string>
     <string name="EditText1Hint">Click Here to Enter Text</string>
     <string name="imageViewStar">Star image</string>
+    <string name="DoNothing">Do-Nothing</string>
 </resources>
