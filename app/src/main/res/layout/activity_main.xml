@@ -19,22 +19,37 @@
         app:layout_constraintVertical_bias="0.283" />
 
     <Button
-        android:id="@+id/Button1"
+        android:id="@+id/buttonSubmit"
         android:layout_width="337dp"
         android:layout_height="72dp"
         android:layout_marginTop="28dp"
-        android:text="@string/Button1"
+        android:text="@string/buttonSubmit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:background="#8892E334"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="337dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="112dp"
+        android:background="#A4E82D2D"
+        android:text="@string/buttonReset"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/EditText1"
+        android:id="@+id/EditText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:autofillHints="Type what you want"
-        android:hint="@string/EditText1Hint"
+        android:hint="@string/EditTextHint"
         android:inputType="text"
         android:textColorHint="#2ECA2E"
         android:textSize="30sp"
@@ -42,93 +57,54 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageViewStar"
-        android:layout_width="409dp"
-        android:layout_height="155dp"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@string/imageViewStar"
-        android:rotationX="32"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:gravity="right|end"
+        android:hint="@string/EditTextHint"
+        android:textColorHint="#396FD16F"
+        android:textSize="40sp"
+        android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Button1"
-        app:srcCompat="@android:drawable/star_big_on" />
-
-    <ImageView
-        android:id="@+id/imageViewStar2"
-        android:layout_width="148dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@string/imageViewStar"
-        android:rotationX="32"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewStar"
-        app:layout_constraintEnd_toStartOf="@+id/imageViewStar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Button1"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:drawable/star_big_on" />
-
-    <ImageView
-        android:id="@+id/imageViewStar3"
-        android:layout_width="148dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="260dp"
-        android:layout_marginLeft="260dp"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@string/imageViewStar"
-        android:rotationX="32"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewStar"
-        app:layout_constraintEnd_toStartOf="@+id/imageViewStar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Button1"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:drawable/star_big_on" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <LinearLayout
-        android:layout_width="419dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="160dp"
+        android:layout_width="337dp"
+        android:layout_height="167dp"
         android:orientation="horizontal"
+        android:rotationX="45"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/buttonReset">
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/imageViewStar8"
+            android:layout_width="409dp"
+            android:layout_height="155dp"
             android:layout_weight="1"
-            android:visibility="visible"
-            android:contentDescription="@string/DoNothing"
-            app:srcCompat="@android:drawable/ic_menu_compass" />
+            android:contentDescription="@string/imageViewStar"
+            android:rotationX="32"
+            app:srcCompat="@android:drawable/star_big_on" />
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:visibility="visible"
-            android:contentDescription="@string/DoNothing"
-            app:srcCompat="@android:drawable/ic_menu_compass" />
+            android:id="@+id/imageViewStar"
+            android:layout_width="200dp"
+            android:layout_height="155dp"
+            android:contentDescription="@string/imageViewStar"
+            android:rotationX="32"
+            app:srcCompat="@android:drawable/star_big_on" />
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/imageViewStar9"
+            android:layout_width="409dp"
+            android:layout_height="155dp"
             android:layout_weight="1"
-            android:visibility="visible"
-            android:contentDescription="@string/DoNothing"
-            app:srcCompat="@android:drawable/ic_menu_compass" />
+            android:contentDescription="@string/imageViewStar"
+            android:rotationX="32"
+            app:srcCompat="@android:drawable/star_big_on" />
     </LinearLayout>
-
-    <ListView
-        android:id="@+id/ListView1"
-        android:layout_width="461dp"
-        android:layout_height="230dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

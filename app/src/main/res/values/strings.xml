@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">Widgets</string>
-    <string name="Button1">SEND TEXT</string>
+    <string name="app_name">Widget World</string>
+    <string name="buttonSubmit">SEND TEXT</string>
+    <string name="buttonReset">RESET</string>
     <string name="Greeting">Hello Widget World!</string>
-    <string name="EditText1Hint">Click Here to Enter Text</string>
+    <string name="EditTextHint">Click Here to Enter Text</string>
     <string name="imageViewStar">Star image</string>
     <string name="DoNothing">Do-Nothing</string>
+    <string name="EditText">EditText</string>
 </resources>
