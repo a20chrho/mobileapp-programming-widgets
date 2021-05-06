@@ -132,6 +132,5 @@ Det var nog det. Skickar med två st Screenshots, tagna i Genymotion.
 Screenshot1 visar appen utan ifylld text i textfältet.
 Screenshot2 visar appen med ifylld text i textfältet.
 
-![](Dugga3-Screenshot1.png)
-![](Dugga3-Screenshot2.png)
-
+![Dugga3-Screenshot1.png](Dugga3-Screenshot1.png)
+![Dugga3-Screenshot2.png](Dugga3-Screenshot2.png)
